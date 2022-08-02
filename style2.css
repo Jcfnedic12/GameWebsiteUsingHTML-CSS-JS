@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Odibee+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*,*::after, *::before{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(114.57deg, #230EA5 0.4%, rgba(18, 39, 113, 0.79) 100.58%);
+  height: 100vh;
+}
+.scoreContaitner{
+  max-width: 500px;
+  min-width: 350px;
+  width: 90vw;
+
+  max-height: 600px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+}
+.scoreContaitner>*{
+  flex: 1 1 1;
+}
+
+
+.scoreResult{
+ font-family: 'Odibee Sans', sans-serif;
+ font-weight: 300;
+ font-size: clamp(1.5rem, 5vw, 3.5rem);
+ color: white;
+}
+.btnDiv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 3%;
+  height: 30%;
+}
+.nameinpt{
+  height:50px;
+  max-width: 400px;
+  width: 100%;
+  outline: none;
+  
+  border: 2px solid whitesmoke;
+
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+
+}
+button{
+  height: 36px;
+  max-width: 300px;
+  width: 100%;
+  outline: none;
+  border: none;
+
+}
+.Exitbtn{
+  height: 36px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  color: white;
+  background-color: transparent;
+  border: 2px solid #BE0022;
+
+  font-family: "noto sans", sans-serif;
+  
+  font-weight: 500;
+  color: white;
+  letter-spacing: .8px;
+}
+.submitbtn{
+  background-color: #BE0022;
+  font-family: "noto sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  letter-spacing: .8px;
+  height: 45px;
+  cursor: pointer;
+}

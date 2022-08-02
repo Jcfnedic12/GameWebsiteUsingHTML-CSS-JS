@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*,*::after, *::before{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+  font-family: 'poppins', sans-serif;
+  overflow: hidden;
+  background-color: #3C7EFF;
+} 
+.quizbody{
+  background-color: #3C7EFF;
+  max-width: 1536px;
+  width: 100vw;
+  max-height: 721.6px;
+  height: 100vh;
+  
+  display: grid;
+ 
+  place-items: center;
+}
+
+.quizContainer{
+  width: clamp(200px, 50vw, 450px);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+  justify-content: center;
+  
+}
+.quizContainer a{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  height: 100%;
+  min-width: 150px;
+  text-decoration: none;
+  color: white;
+}
+.quizContainer h1{
+  font-weight: 500;
+  font-size: clamp(1.5rem, 3vw, 2rem);  
+  min-width: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.buttons1{
+  background-color: red;
+  border: 3px solid red;
+  outline: none;
+  transition: all .4s ease-in-out;
+  max-height: 50px;
+  font-size: clamp(.8rem, 3vw, 1rem);
+}
+.buttons1:hover{
+  background-color: #A30000;
+  border: 3px solid #A30000;
+  letter-spacing: 2px;
+}
+.buttons2{
+  background-color: #0d327c;
+  outline: none;
+  border: 3px solid #0d327c ;
+  transition: all .4s ease-in-out;
+
+  font-size: clamp(.8rem, 3vw, 1rem);
+  max-height: 50px;
+}
+.buttons2:hover{
+  background-color: #001E59;
+  border: 3px solid #001E59;
+  letter-spacing: 2px;
+}

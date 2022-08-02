@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Odibee+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*,*::after, *::before{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+  width: 100vw;
+  
+  height: 100vh;
+  font-family: "Odibee Sans", sans-serif;
+  background-color: #191632;
+
+  overflow-x: hidden;
+}
+
+.ranksContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+  gap: 10px;
+  flex-direction: column;
+  height: 100%;
+  max-height: 600px;
+}
+.Rankmastercontainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 3%;
+  min-width: 300px;
+  max-height: 700px;
+
+  height: auto;
+
+  flex-basis: 80%;
+}
+
+.title{
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: 400;
+  color: #00A4BA;
+  flex-basis: 10%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ 
+  max-width: 350px;
+  width: 80%;
+  border: 1px solid white;
+  padding: 1%;
+  color: white;
+}
+.nameCont,.scoreCont{
+  font-weight: 400;
+  font-size: 30px;
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-height: 400px;
+  height: 100%;
+  margin-top: 4%;
+  flex-basis: 20%;
+}
+.buttonContainer a{
+  height: 40px;
+  text-decoration: none;
+  width: 200px;
+  background-color: #8a2be2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  transition: all .3s ease-in;
+}
+
+.buttonContainer a:hover,.buttonContainer a:active{
+  background-color: #5809A0;
+  letter-spacing: 2px;
+}
+
+
